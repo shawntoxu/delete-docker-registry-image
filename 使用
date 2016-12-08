@@ -1,0 +1,7 @@
+
+
+删除某一个image  testrepo/awesomeimage:supertag
+设置registry 存储image的路径
+export REGISTRY_DATA_DIR=/xxxx/registry_data_v2/docker/registry/v2/
+删除
+delete_docker_registry_image --image testrepo/awesomeimage:supertag
